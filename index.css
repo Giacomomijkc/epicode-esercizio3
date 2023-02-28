@@ -4,6 +4,11 @@ body{
     background-color: #E3E6E6;
 }
 
+.blu-title{
+    color: #095470;
+    font-weight: bold;
+}
+
 #header{
     background: #131921;
     height: 70px;
@@ -26,9 +31,9 @@ body{
 
 .menu-option{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: small;
 }
 
@@ -39,7 +44,7 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: medium;
 }
 
@@ -81,10 +86,11 @@ body{
     margin-top: 22px;
     padding-top: 10px;
     padding-left: 10px;
+    font-weight: 500;
 }
 
 .multi-images-style{
-    border-radius: 15px;
+    border-radius: 20px;
     width: 23%;
     height: 400px;
     margin-bottom: none;
@@ -92,6 +98,7 @@ body{
     padding-bottom: -30px;
     padding-left: 10px;
     padding-right: 10px;
+    object-fit: cover;
 }
 
 .central-title{
@@ -99,6 +106,7 @@ body{
     margin-top: 0px;
     padding-top: 0px;
     color: black;
+    font-weight: 500;
 }
 
 #second-image{
@@ -130,13 +138,13 @@ body{
     color: white;
     font-weight: bold;
     font-size: medium;
-    padding-top: 3px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 #footer{
     background: #131921;
-    height: 150px;
+    height: 140px;
     align-items: center;
     margin-top: 0px;
 }
