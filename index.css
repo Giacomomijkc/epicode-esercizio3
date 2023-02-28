@@ -84,7 +84,7 @@ body{
 }
 
 .multi-images-style{
-    border-radius: 15px;
+    border-radius: 20px;
     width: 23%;
     height: 400px;
     margin-bottom: none;
@@ -92,6 +92,7 @@ body{
     padding-bottom: -30px;
     padding-left: 10px;
     padding-right: 10px;
+    object-fit: cover;
 }
 
 .central-title{
