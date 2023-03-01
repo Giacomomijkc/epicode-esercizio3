@@ -13,7 +13,7 @@ body{
 
 #header{
     background: #131921;
-    height: 70px;
+    height: 60px;
 }
 
 #logo1{
@@ -29,6 +29,7 @@ body{
     justify-content: start;
     background: #232F3E;
     padding-left: 15px;
+    height: 40px;
 }
 
 .menu-option{
@@ -40,7 +41,7 @@ body{
 }
 
 #banner{
-    background: #E1682F;
+    background: #ef5615;
     text-align: center;
     height: 35px;
     margin-top: 30px;
@@ -62,7 +63,7 @@ body{
 
 #banner-image{
     background-image: url("./bg-image.png");
-    height: 200px;
+    height: 195px;
 }
 
 #banner-image-title{
@@ -77,11 +78,16 @@ body{
     padding-top: 20px;
     text-align: center;
     color: white;
-    font-weight:lighter;
+    font-weight:bold;
 }
 
 #multi-images{
     background: white;
+}
+
+#images_container{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #left-title{
@@ -92,15 +98,16 @@ body{
 }
 
 .multi-images-style{
-    border-radius: 35px;
+    border-radius: 27px;
     width: 23%;
     height: 350px;
     margin-bottom: none;
     margin-bottom: 15px;
     padding-bottom: -30px;
-    padding-left: 10px;
-    padding-right: 10px;
     object-fit: cover;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .central-title{
@@ -139,26 +146,31 @@ body{
     margin-bottom: 0px;
     color: white;
     font-weight: bold;
-    font-size: medium;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    font-size: 11pt;
+    padding-top: 2px;
+    padding-bottom: 10px;
+
 }
 
 #footer{
     background: #131921;
-    height: 140px;
+    height: 170px;
     align-items: center;
-    margin-top: 0px;
 }
 
 #logo2{
-    max-width: 180px;
-    max-height: 100px;
+    max-width: 160px;
+    max-height: 80px;
     align-content: center;
     display: grid;
     margin-left: auto;
     margin-right: auto;
     place-items: center;
     padding-top: 50px;
+}
+
+#link{
+    color: white;
+    text-decoration: underline;
 }
     
